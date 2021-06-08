@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery ui</title>
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="popup-page" id="modal00">
+		<div class="popup-message success-text">
+			<p class="popup-text success-text">Файл успешно перемещен!</p>
+			<img src="img/yes.png" alt="done" width="50">
+		</div>
+	</div>
+
+	<div class="popup-page" id="modal01">
+		<div class="popup-message">
+			<h2>Содержимое папки:</h2>
+			<ul class="popup-text sortable"></ul>
+			<button class="close-btn">&#x2715;</button>
+		</div>
+	</div>
+
+	<div class="popup-page" id="modal02">
+		<div class="popup-message">
+			<h2>Содержимое папки:</h2>
+			<ul class="popup-text sortable"></ul>
+			<button class="close-btn">&#x2715;</button>
+		</div>
+	</div>
+
+	<div class="popup-page" id="modal03">
+		<div class="popup-message">
+			<h2>Содержимое папки:</h2>
+			<ul class="popup-text sortable"></ul>
+			<button class="close-btn">Х</button>
+		</div>
+	</div>
+
+	<div class="folder-row folders">
+		<div class="item">
+			<div class="folder folder01"><img src="img/folder.svg" height="100" width="auto" alt="folder">
+				<p>Папка</p>
+			</div>
+			<div class="inside">
+				<ul class="sortable">
+				</ul>
+			</div>
+		</div>
+		<div class="item">
+			<div class="folder folder02"><img src="img/folder.svg" height="100" width="auto" alt="folder">
+				<p>Папка</p>
+			</div>
+			<div class="inside">
+				<ul class="sortable">
+				</ul>
+			</div>
+		</div>
+		<div class="item">
+			<div class="folder folder03"><img src="img/folder.svg" height="100" width="auto" alt="folder">
+				<p>Папка</p>
+			</div>
+			<div class="inside">
+				<ul class="sortable">
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="folder-row">
+		<div class="file"><img src="img/book.svg" alt="file"><p>Файл #1</p></div>
+		<div class="file"><img src="img/book.svg" alt="file"><p>Файл #2</p></div>
+		<div class="file"><img src="img/book.svg" alt="file"><p>Файл #3</p></div>
+		<div class="file"><img src="img/book.svg" alt="file"><p>Файл #4</p></div>
+		<div class="file"><img src="img/book.svg" alt="file"><p>Файл #5</p></div>
+		<div class="file"><img src="img/book.svg" alt="file"><p>Файл #6</p></div>
+	</div>
+
+	
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script> 
+	
+	
+</body> 
+</html>	
